@@ -64,6 +64,8 @@ void to_simulator(void) {
     //fprintf(stderr, "INFO: Returning back to simulator %d\n", context);
 }
 
+int context = 0;
+
 #ifdef __cplusplus
 }
 #endif
